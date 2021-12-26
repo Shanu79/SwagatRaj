@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swagat Raj</title>
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu&display=swap"
+    rel="stylesheet" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <section id="title">
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+      <nav class= "navbar navbar-expand-lg sticky-top navbar-dark">
+        <a class="navbar-brand" href="">< Swagat Raj /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+        <img src = "images/moon.png" id = "icon">
+      </nav>
+
+
+      <!-- home --> 
+      <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Swagat</span></h1><br><h3 class = "user">(Shanu79)</h3><br><h3>Web Developer and Designer.</h3>
+                <p>I spend most of time coding outstanding projects ⚡ or sleeping 😪.</p>
+            </div>
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image class="home__blob-img" x="50" y="60" href="images/bg.png"/>
+                </svg>
+            </div>
+        </section>
+
+<!--===== ABOUT =====-->
+<div class = "aaa">
+    <div class="about__img">
+        <img src="images/dp.jpeg" alt="">
+    </div>  
+  <div class = "tdata">
+          <h2 class="about__subtitle">About me</h2>
+          <p class="about__text">I am a second year undergraduate student of Electrical Engineering Department of NIT Rourkela. I have some in-depth knowledge of web development techniques, object-oriented programming, graphic designing. And have little experience in cloud computing. 
+            Currently on my journey to become an expert level C++ programmer. Till now I have more than 1 year experience in C++. </p>           
+      </div>                                 
+</div>
+</section> 
+
+<!-- top tech-->
+<div class="tt">
+  <h2>What I Do?</h2>
+
+  <div class="webdevimg">
+
+  </div>
+
+  <div class="webdev">
+
+  </div>
+
+  <div class="cloudimg">
+
+  </div>
+
+  <div class="cloud">
+    
+  </div>
+
+  <div class="uiux">
+
+  </div>
+
+  <div class="uiuximg">
+
+  </div>
+
+
+
+</div>  
+  
+<!-- Footer -->
+  <footer id="footer">
+    <p>© Shanu79 2021
+      <br>made with ❤️ by SWAGAT RAJ
+    </p>
+  </footer>
+</body>
+
+<script>
+  var icon = document.getElementById("icon");
+
+  icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    document.body.classList.toggle("navbar-light")
+  }
+</script>
+</html>
