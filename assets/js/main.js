@@ -9,15 +9,19 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
+/* button dark mode*/
 showMenu('nav-toggle','nav-menu')
 
   var icon = document.getElementById("icon");
 
   icon.onclick = function(){
     document.body.classList.toggle("dark-theme");
-    document.body.classList.toggle("navbar-light")
   }
-
+/* auto dark mode*/
+let dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+if (dark) {
+    document.body.classList.toggle("dark-theme");
+}
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 

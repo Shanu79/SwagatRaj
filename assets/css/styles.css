@@ -1,10 +1,9 @@
 :root{
 
- --first-color: #ffdbd4;
+  --first-color: #ffdbd4;
   --second-color: #201718;
 }
 .dark-theme{
-  
   --first-color: #201718;
   --second-color: #ffdbd4;
 }
@@ -44,7 +43,9 @@
     --smaller-font-size: .875rem;
   }
 }
-
+@media (prefers-color-scheme: dark) {
+  
+}
 /*===== BASE =====*/
 *, ::before, ::after {
   box-sizing: border-box;
