@@ -9,6 +9,20 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
+
+var typed = new Typed(".auto_type", {
+    strings: ["fellow","Traveller👋"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    
+});
+
+var typed = new Typed(".auto_type2",{
+    strings: ["I'am a coder👨‍💻","I'am a Designer🤔","or","I'am a pro sleeper😪"],
+    typeSpeed: 70,
+    loop: true
+});
+
 /* button dark mode*/
 showMenu('nav-toggle','nav-menu')
 

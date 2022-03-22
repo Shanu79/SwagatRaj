@@ -224,6 +224,9 @@ img {
 .home__title-color {
   color:rgb(161, 0, 0);
 }
+.iam{
+  font-size: var(--big-font-size);
+}
 
 .home__social {
   display: flex;
