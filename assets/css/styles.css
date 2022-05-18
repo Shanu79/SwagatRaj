@@ -247,16 +247,10 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
-  width: 260px;
-}
-
-.home__blob {
-  fill: var(--first-color);
 }
 
 .home__blob-img {
-  width: 360px;
+  width: 400px;
 }
 
 /*BUTTONS*/
