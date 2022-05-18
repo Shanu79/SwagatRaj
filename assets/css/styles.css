@@ -20,7 +20,7 @@
   --first-color: #ffdbd4;
   --second-color: #201718;
   /*===== Fuente y tipografia =====*/
-  --body-font: -apple-system, Roboto,'Open Sans', 'Helvetica Neue', sans-serif, 'Monsieur La Doulaise', cursive;
+  --body-font: -apple-system, Roboto,'Open Sans', 'Helvetica Neue', sans-serif, 'Monsieur La Doulaise';
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
